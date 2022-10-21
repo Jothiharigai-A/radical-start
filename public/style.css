@@ -54,10 +54,12 @@
     background-color: transparent;
     border: none;
   }
+  
   .image {
     display: flex;
     height: 23px;
     width: 23px;
+  
   }
   .image-a{
     display: flex;
@@ -133,6 +135,7 @@
     height: 241px;
     
   }
+  
   .about{
     font-weight: normal;
     flex-direction: row;
@@ -141,4 +144,28 @@
     gap: 90px;
     display: flex;
   }
+  
+
+  [type="date"] {
+    background:#fff url(https://i.imgur.com/ZqUQW3R.png)  97% 50% no-repeat ;
+  }
+  [type="date"]::-webkit-inner-spin-button {
+   
+    display: none;
+  }
+  [type="date"]::-webkit-calendar-picker-indicator {
+    
+    opacity: 0;
+  }
+  
+  .input-cal {
+    padding-left: 20px;
+    color: #a9a9a9;
+    font-weight: 300px;
+    font-size: 18px;
+    width: 230px;
+   border-color:#a9a9a9 ;
+  }
+  
+ 
   

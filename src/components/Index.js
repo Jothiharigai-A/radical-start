@@ -10,31 +10,31 @@ class Index extends Component {
     this.state = {
       users: [
         {
-          id: 11,
-          firstname: "Moazzam Hossain",
-          lastname: "Moazzam Hossain",
-          location: "88018 29887799",
-          email: "moazzam@gmail.com",
-          dob: "12.12.1222",
-          education: "bsc",
+          id: 1,
+          firstname: "Raja",
+          lastname: "Pandi",
+          location: "Madurai",
+          email: "raja2365@gmail",
+          dob: "28/01/2000",
+          education: "B.E",
         },
         {
-          id: 11,
-          firstname: "Moazzam Hossain",
-          lastname: "Moazzam Hossain",
-          location: "88018 29887799",
-          email: "moazzam@gmail.com",
-          dob: "12.12.1222",
-          education: "bsc",
+          id: 2,
+          firstname: " Siva",
+          lastname: "Balan ",
+          location: "Madurai",
+          email: "sivabalan65@gmail",
+          dob: "05/05/1998",
+          education: "B.Tech",
         },
         {
-          id: 11,
-          firstname: "Moazzam Hossain",
-          lastname: "Moazzam Hossain",
-          location: "88018 29887799",
-          email: "moazzam@gmail.com",
-          dob: "12.12.1222",
-          education: "bsc",
+          id: 3,
+          firstname: "Priya ",
+          lastname: "Lakshmi ",
+          location: "Madurai",
+          email: "priya525@gmail",
+          dob: "02/08/2001",
+          education: "M.sc",
         },
       ],
       editUser: {},
@@ -83,6 +83,7 @@ class Index extends Component {
     return (
       <div className="card">
         <div className="">
+
           <input placeholder="Search"></input>
           <button
             type="button"
@@ -137,6 +138,8 @@ class Index extends Component {
                       <button
                         className="button3 image-a  "
                         onClick={this.handleDeleteUser.bind(this, i)}
+						data-toggle="modal"
+                        data-target="deleteModal"
                       ><img className="image" src="https://i.imgur.com/g3SkqM4.png" alt="edit"></img>
                         {" "}
                         <span className="imgtxt">

@@ -189,8 +189,8 @@ class Create extends Component {
                   <div className="flex-a">
                     <label htmlFor="dob">DOB:</label>
                     <input
-                      type="text"
-                      className={`input ${
+                      type="date"
+                      className={`input-cal input ${
                         this.hasErrorFor("dob") ? "is-invalid" : ""
                       }`}
                       id="dob"
@@ -198,7 +198,7 @@ class Create extends Component {
                       placeholder="dd/mm/yyyy" 
                       onChange={this.handleInputFieldChange}
                       value={this.state.dob}
-                    /><img src="https://i.imgur.com/ZqUQW3R.png" alt="cl"></img>
+                    />
                     {this.renderErrorFor("dob")}
                   </div>
                 </div>
