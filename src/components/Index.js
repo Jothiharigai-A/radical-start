@@ -4,6 +4,7 @@ import Create from "./Create";
 import Edit from "./Edit";
 
 class Index extends Component {
+  
   constructor() {
     super();
     //--- Declare state variable for this component ---//
@@ -83,8 +84,7 @@ class Index extends Component {
     return (
       <div className="card">
         <div className="">
-
-          <input placeholder="Search"></input>
+          <input placeholder="Search"/>
           <button
             type="button"
             className=" button5"
