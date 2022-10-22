@@ -101,7 +101,7 @@ class Index extends Component {
               <thead>
                 <tr className="">
                   <th className="td"> Id </th>
-                  <th className="td">First Name</th>
+                  <th className="td ">First Name</th>
                   
                   <th className="td">Last Name</th>
                   <th className="td"> Location </th>
@@ -116,8 +116,8 @@ class Index extends Component {
                 {this.state.users.map((user, i) => (
                   <tr key={i}>
                     <td className="td"> {user.id} </td>
-                    <td className="td"> {user.firstname} </td>
-                    <td className="td"> {user.lastname} </td>
+                    <td className="td extra-pd"> {user.firstname} </td>
+                    <td className="td extra-pd"> {user.lastname} </td>
                     <td className="td"> {user.location} </td>
                     <td className="td"> {user.email} </td>
                     <td className="td"> {user.dob} </td>

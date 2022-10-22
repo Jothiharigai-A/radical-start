@@ -8,7 +8,10 @@
   .font{
     font-family: 'outfit' , sans-serif;
   }
-  
+.extra-pd{
+  padding-right: 56px;
+ 
+}
   .card {
     border: none !important;
     padding-top: 31px;
@@ -17,13 +20,14 @@
   .table {
     padding-left: 80px;
     font-family: 'outfit' , sans-serif;
+    width: 200px;
   }
   .table-pd{
     padding-top: 60px;
   }
   .table-bordered td,
   .table-bordered th {
-  width: 600px;
+  width: 200px;
   height: 150px;
   }
   .th {
@@ -32,7 +36,8 @@
    
   }
   .td{
-    padding-left: 12px;
+    padding-left: 20px;
+    
   }
   .flex1 {
     display: flex;
