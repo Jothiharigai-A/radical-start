@@ -1,31 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 .head {
     padding-top: 101px;
     padding-left: 122px;
     font-size: 26px;
     font-weight: bold;
-    font-family: 'outfit', sans-serif;
+    font-family: 'outfit' , sans-serif;
+  }
+  .font{
+    font-family: 'outfit' , sans-serif;
   }
   
   .card {
     border: none !important;
     padding-top: 31px;
     padding-left: 122px;
-    font-family: 'outfit', sans-serif;
   }
   .table {
     padding-left: 80px;
-    font-family: 'outfit', sans-serif;
+    font-family: 'outfit' , sans-serif;
   }
   .table-pd{
     padding-top: 60px;
-    font-family: 'outfit';
   }
   .table-bordered td,
   .table-bordered th {
   width: 600px;
   height: 150px;
-  font-family: 'outfit', sans-serif;
   }
   .th {
     width: 180px;
@@ -79,20 +78,17 @@
   .table-bordered thead td,
   .table-bordered thead th {
     border-bottom-width: 1px !important;
-    font-family: 'outfit', sans-serif;
   }
   .create {
     width: 100%;
     height: 1200px;
     background-color: white;
-    font-family: 'outfit', sans-serif;
   }
   
   .close-btn {
     cursor: pointer;
     background-color: transparent;
     border: none;
-    font-family: 'outfit', sans-serif;
   }
   
   .float {
@@ -127,15 +123,15 @@
     color: #a9a9a9;
     font-weight: 300px;
     font-size: 18px;
-    font-family: 'outfit', sans-serif;
+    
   }
   .create-p {
     padding-left: 122px;
-    font-family: 'outfit', sans-serif;
+    
   }
   .submit{
     float: left;
-    font-family: 'outfit', sans-serif;
+    font-family: 'outfit' , sans-serif;
    
   }
   .submit-a{
@@ -155,7 +151,6 @@
     padding-top: 60px;
     gap: 90px;
     display: flex;
-    font-family: 'outfit', sans-serif;
   }
   
 
@@ -178,7 +173,6 @@
     font-size: 18px;
     width: 230px;
    border-color:#a9a9a9 ;
-   font-family: 'outfit', sans-serif;
   }
   
  

@@ -147,13 +147,13 @@ class Create extends Component {
                       }`}
                       id="firstname"
                       name="firstname"
-                      placeholder="FirstEnter your first name"
+                      placeholder="Enter your first name"
                       onChange={this.handleInputFieldChange}
                       value={this.state.firstname}
                     />
                     {this.renderErrorFor("firstname")}
                   </div>
-                  <div className="flex-a">
+                  <div className="flex-a ">
                     <label htmlFor="lastname">Last name :</label>
                     <input
                       type="text"
