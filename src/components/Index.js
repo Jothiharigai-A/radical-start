@@ -101,7 +101,7 @@ class Index extends Component {
               <thead>
                 <tr className="">
                   <th className="td"> Id </th>
-                  <th className="td ">First Name</th>
+                  <th className="td">First Name</th>
                   
                   <th className="td">Last Name</th>
                   <th className="td"> Location </th>
